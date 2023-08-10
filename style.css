@@ -1,0 +1,316 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap'); 
+ body{
+ 
+    color: rgba(44, 47, 48, 0.9) ;
+    font-family:   #033f47, sans-serif;
+}
+h1{
+    color: #bde810;
+    font-weight: 600;
+}
+h3{
+    color: brown;
+
+}
+a{
+    text-decoration: none;   
+} 
+
+.btn{
+    border-radius: 24%;
+   border:1px solid transparent;
+   height: 50px;
+    width: 80px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+}
+.logoimg{
+    border-radius: 50px;
+    width: 40%;
+    max-width: 40px;
+    
+}
+#myprofile{
+    height: 400px;
+    width: 400px;
+    border-radius: 50px;
+    
+}
+#main{
+    
+    border-radius: 50px;
+    padding: 30px;
+    
+}
+.main1{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: aliceblue;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.imgpro{
+    padding-bottom: 20px;
+}
+#about{
+    justify-content: flex-end;
+   height: auto;
+    border-radius: 50px;
+    background-color: aliceblue;
+}
+#home{
+    background-color: aliceblue;
+  }
+  
+
+
+
+
+/* skill section */
+
+#skill{
+   background-repeat: no-repeat;
+   background-size: cover;
+    width: 100%;
+    height: 50%;
+
+}
+
+.list{
+    border: white;
+
+}
+
+.responsive {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 50px;
+    border: 2px solid black;
+  }
+  .container1{
+    border-radius: 25px;
+  }
+  
+
+
+
+  .skill{
+    width: 500px;
+    margin: 60px auto;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22);
+    
+  }
+  .skill li{
+    margin: 20px 0;
+    padding: 10px;
+  }
+  .bar{
+    background: #353b48;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+
+}
+.bar:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22);
+}
+.bar span{
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg,rgba(236,0,140,1)0%,rgba(252,103,103,1)100%);
+}
+.html{
+    width: 90%;
+    animation: html 3s;
+}
+.css{
+    width: 90%;
+    animation:css 3s;
+}
+.javascript{
+    width: 70%;
+    animation: javascript 3s;
+}
+.bootstrap{
+    width: 50%;
+    animation: bootstrap 3s;
+}
+.c{
+    width: 60%;
+    animation: c 3s;
+}
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes javascript{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+@keyframes bootstrap{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+    
+}
+@keyframes c{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }  
+}
+
+
+/* project section */
+
+.project_wrapper .card {
+    background-color: var(--bg-light);
+    cursor: pointer;
+    -webkit-transition: all .4s ease 0s;
+    -moz-transition: all .4s ease 0s;
+    -o-transition: all .4s ease 0s;
+    transition: all .4s ease 0s;
+}
+
+.project_wrapper .card:hover {
+    box-shadow: 0 0.9375rem 1.875rem rgb(77 87 222 / 30%);
+    background: var(--bg-white);
+}
+
+
+#contact{
+    border-radius: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.container{
+    width: 100%;
+   
+}
+
+
+
+
+
+
+
+
+/* footer section */
+
+
+@media (max-width: 768px) {
+    .footer_wrapper {
+        padding: 20px 0;
+        text-align: center;
+    }
+    .myicons {
+        text-align: center;
+    }  
+    
+}
+
+
+.myicons {
+    text-align: center;
+}
+
+.myicons h5 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.myicons a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #333;
+    font-size: 24px;
+    transition: color 0.3s ease-in-out;
+}
+
+.myicons a:hover {
+    color: #007bff; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
